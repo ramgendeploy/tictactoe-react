@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.Game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  /* background: rgb(114, 47, 47); */
+  margin: 0 auto;
+  align-items: center;
+}
+
+.blk {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  justify-self: center;
+  padding: 20px 50px;
+  margin: 3px;
+  /* background: rgb(114, 47, 47); */
+  border: 1px solid rgb(84, 84, 84);
+  user-select: none;
+}
+
+.hud {
+  text-align: center;
+  background: rgb(32, 89, 211);
+  width: 50%;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
